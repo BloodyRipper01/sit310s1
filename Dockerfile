@@ -1,6 +1,6 @@
 # parameters
 ARG REPO_NAME="SIT310"
-ARG DESCRIPTION="Base class repo for UML EECE 5560"
+ARG DESCRIPTION=""
 ARG MAINTAINER="BloodyRipper01 (mitchellsharkie01@gmail.com)"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
 ARG ICON="cube"

@@ -1,5 +1,5 @@
 # parameters
-ARG REPO_NAME="eece5560-base"
+ARG REPO_NAME="sit310s1"
 ARG DESCRIPTION="Example"
 ARG MAINTAINER="BloodyRipper01 (mitchellsharkie01@gmail.com)"
 # pick an icon from: https://fontawesome.com/v4.7.0/icons/
@@ -16,9 +16,7 @@ ARG LAUNCHER=default
 # define base image
 FROM duckietown/${BASE_IMAGE}:${BASE_TAG} as BASE
 
-RUN apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key
-
-C1CF6E31E6BADE8868B172B4F42ED6FBAB17C65
+RUN apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C65
 # recall all arguments
 ARG ARCH
 ARG DISTRO
